@@ -1,0 +1,591 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "global:leash_villager": {
+    "criteria": {
+      "trigger": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/store_deaths_initial": {
+    "criteria": {
+      "s": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "village_hero:about_village_hero_plus": {
+    "criteria": {
+      "requirement": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "imalittlhigh:horse_swim": {
+    "criteria": {
+      "1": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "pk_waystones:events/once/prepare": {
+    "criteria": {
+      "requirement": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "imalittlhigh:root": {
+    "criteria": {
+      "1": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2025-11-22 13:37:58 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "global:notblue": {
+    "criteria": {
+      "requirement": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2025-11-22 13:37:58 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/one_with_the_forest": {
+    "criteria": {
+      "old_growth_birch_forest": "2025-11-22 15:36:42 +0000",
+      "sunflower_plains": "2025-11-22 16:56:13 +0000",
+      "plains": "2025-11-22 13:38:00 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:challenges/explorer_of_worlds": {
+    "criteria": {
+      "old_growth_birch_forest": "2025-11-22 15:36:42 +0000",
+      "sunflower_plains": "2025-11-22 16:56:13 +0000",
+      "plains": "2025-11-22 13:38:00 +0000",
+      "cherry_grove": "2025-11-22 15:31:32 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/root": {
+    "criteria": {
+      "location": "2025-11-22 13:38:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2025-11-22 13:38:00 +0000",
+      "birch_forest": "2025-11-22 15:36:42 +0000",
+      "cherry_grove": "2025-11-22 15:31:32 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/advancement_legend": {
+    "criteria": {
+      "theres_a_zombie_on_the_lawn": "2025-11-22 16:56:14 +0000",
+      "bacap_root": "2025-11-22 13:38:02 +0000",
+      "for_you_my_sweet": "2025-11-22 16:56:14 +0000",
+      "care_for_the_environment": "2025-11-22 15:31:38 +0000",
+      "the_first_night": "2025-11-22 15:30:38 +0000",
+      "statistics_root": "2025-11-22 15:30:39 +0000",
+      "adventure_root": "2025-11-22 16:56:37 +0000",
+      "egging_dude": "2025-11-22 16:49:55 +0000",
+      "cut_in_half": "2025-11-22 17:00:03 +0000",
+      "biomes_root": "2025-11-22 16:56:37 +0000",
+      "heart_of_darkness": "2025-11-22 15:51:47 +0000",
+      "which_came_first": "2025-11-22 16:49:53 +0000",
+      "tarzan": "2025-11-22 17:16:07 +0000",
+      "pretty_in_pink": "2025-11-22 15:31:33 +0000"
+    },
+    "done": false
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2025-11-22 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "global:better_bundle": {
+    "criteria": {
+      "trigger": "2025-11-22 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/the_first_night": {
+    "criteria": {
+      "trigger": "2025-11-22 15:30:38 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/root": {
+    "criteria": {
+      "the_first_night": "2025-11-22 15:30:38 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/statistics_milestone": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000",
+      "the_first_night": "2025-11-22 15:30:38 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/stat_branch2_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch6_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch1_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch5_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch9_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch4_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch8_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch3_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch7_mid": {
+    "criteria": {
+      "root": "2025-11-22 15:30:39 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/overgrown": {
+    "criteria": {
+      "cherry_grove": "2025-11-22 15:31:32 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/pretty_in_pink": {
+    "criteria": {
+      "cherry_grove": "2025-11-22 15:31:32 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/biomes_milestone": {
+    "criteria": {
+      "theres_a_zombie_on_the_lawn": "2025-11-22 16:56:14 +0000",
+      "for_you_my_sweet": "2025-11-22 16:56:14 +0000",
+      "root": "2025-11-22 16:56:37 +0000",
+      "tarzan": "2025-11-22 17:16:07 +0000",
+      "pretty_in_pink": "2025-11-22 15:31:33 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:challenges/all_the_blocks": {
+    "criteria": {
+      "poppy": "2025-11-22 16:56:13 +0000",
+      "azure_bluet": "2025-11-22 17:15:12 +0000",
+      "cobblestone_slab": "2025-11-22 17:00:03 +0000",
+      "dirt": "2025-11-22 17:05:19 +0000",
+      "cherry_sapling": "2025-11-22 15:31:34 +0000",
+      "mossy_cobblestone": "2025-11-22 17:02:37 +0000",
+      "andesite": "2025-11-22 17:02:37 +0000",
+      "sunflower": "2025-11-22 16:56:13 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/farming_milestone": {
+    "criteria": {
+      "care_for_the_environment": "2025-11-22 15:31:38 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:farming/care_for_the_environment": {
+    "criteria": {
+      "cherry_sapling": "2025-11-22 15:31:38 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:farming/ecologist": {
+    "criteria": {
+      "cherry_sapling": "2025-11-22 15:31:38 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/fall_high": {
+    "criteria": {
+      "requirement": "2025-11-22 15:36:42 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-11-22 15:36:43 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/heart_of_darkness": {
+    "criteria": {
+      "enter_cave": "2025-11-22 15:51:46 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/mining_milestone": {
+    "criteria": {
+      "heart_of_darkness": "2025-11-22 15:51:47 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:challenges/all_the_items": {
+    "criteria": {
+      "wheat_seeds": "2025-11-22 16:49:06 +0000",
+      "egg": "2025-11-22 16:49:52 +0000",
+      "rotten_flesh": "2025-11-22 17:02:37 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:animal/which_came_first": {
+    "criteria": {
+      "egg": "2025-11-22 16:49:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2025-11-22 16:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-11-22 16:49:52 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/animal_milestone": {
+    "criteria": {
+      "which_came_first": "2025-11-22 16:49:53 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:weaponry/egging_dude": {
+    "criteria": {
+      "egg": "2025-11-22 16:49:55 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/multiclassed": {
+    "criteria": {
+      "egg": "2025-11-22 16:49:55 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/weaponry_milestone": {
+    "criteria": {
+      "egging_dude": "2025-11-22 16:49:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-11-22 16:56:13 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/theres_a_zombie_on_the_lawn": {
+    "criteria": {
+      "sunflower_plains": "2025-11-22 16:56:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-11-22 16:56:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-11-22 16:56:13 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/flower_power": {
+    "criteria": {
+      "poppy": "2025-11-22 16:56:13 +0000",
+      "azure_bluet": "2025-11-22 17:15:12 +0000",
+      "sunflower": "2025-11-22 16:56:13 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/for_you_my_sweet": {
+    "criteria": {
+      "sunflower": "2025-11-22 16:56:13 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/root": {
+    "criteria": {
+      "killed_by_something": "2025-11-22 16:56:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-11-22 16:56:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/death_from_all": {
+    "criteria": {
+      "zombie": "2025-11-22 16:56:36 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:death/explosion": {
+    "criteria": {
+      "requirement": "2025-11-22 16:56:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/adventure_milestone": {
+    "criteria": {
+      "root": "2025-11-22 16:56:37 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:building/slabs_for_days": {
+    "criteria": {
+      "cobblestone_slab": "2025-11-22 17:00:03 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:building/cut_in_half": {
+    "criteria": {
+      "slab": "2025-11-22 17:00:03 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/building_milestone": {
+    "criteria": {
+      "cut_in_half": "2025-11-22 17:00:03 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/rock_collection": {
+    "criteria": {
+      "andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-22 17:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-11-22 17:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-11-22 17:15:12 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/tarzan": {
+    "criteria": {
+      "enter_vine": "2025-11-22 17:16:06 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4325
+}

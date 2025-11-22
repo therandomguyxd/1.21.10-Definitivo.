@@ -1,0 +1,9 @@
+{
+  "DistanceScaling": "Medium",
+  "AIOptimizationType": "Default",
+  "BlockDistance_Close": 256,
+  "BlockDistance_Far": 1024,
+  "TemptDelay": "Low",
+  "DisableZombieEggStomping": false,
+  "NeverSlowdownDistantMobs": false
+}
