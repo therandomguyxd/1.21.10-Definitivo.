@@ -1,0 +1,551 @@
+[19:28:58] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.2
+[19:28:59] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.5.3 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[19:28:59] [main/INFO]: Loading 132 mods:
+	- c2me 0.3.3.0.0+1.21.5
+	   |-- c2me-base 0.3.3.0.0+1.21.5
+	   |-- c2me-client-uncapvd 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-general-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.3.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.3.0.0+1.21.5
+	   |-- c2me-notickvd 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-allocs 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-dfc 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-math 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-scheduling 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-general 0.3.3.0.0+1.21.5
+	   |-- c2me-opts-worldgen-vanilla 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-serializer 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-system 0.3.3.0.0+1.21.5
+	   |-- c2me-rewrites-chunkio 0.3.3.0.0+1.21.5
+	   |-- c2me-server-utils 0.3.3.0.0+1.21.5
+	   |-- c2me-threading-lighting 0.3.3.0.0+1.21.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cardinal-components 6.3.1
+	   |-- cardinal-components-base 6.3.1
+	   |-- cardinal-components-block 6.3.1
+	   |-- cardinal-components-chunk 6.3.1
+	   |-- cardinal-components-entity 6.3.1
+	   |-- cardinal-components-item 6.3.1
+	   |-- cardinal-components-level 6.3.1
+	   |-- cardinal-components-scoreboard 6.3.1
+	   \-- cardinal-components-world 6.3.1
+	- chunky 1.4.36
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- debugify 1.21.5+1.0
+	- fabric-api 0.128.2+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.1.0+ed91556f49
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.14+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.33+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.15.2+6d9989f349
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.8.5+6d9989f349
+	   |-- fabric-data-generation-api-v1 22.5.2+a0fab30c49
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.1.0+3ce7866349
+	   |-- fabric-events-interaction-v0 4.0.15+64e3057949
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.5.0+0620fe4749
+	   |-- fabric-item-group-api-v1 4.2.9+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.6.0+230071a049
+	   |-- fabric-loot-api-v2 3.0.48+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.36+86c3a9f149
+	   |-- fabric-message-api-v1 6.1.0+fe971bba49
+	   |-- fabric-model-loading-api-v1 5.2.3+5281b90749
+	   |-- fabric-networking-api-v1 4.5.0+775be32c49
+	   |-- fabric-object-builder-api-v1 21.1.2+b8d6ba7049
+	   |-- fabric-particles-v1 4.1.2+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.8+3235ab3249
+	   |-- fabric-registry-sync-v0 6.1.22+cd64004349
+	   |-- fabric-renderer-api-v1 6.1.2+bdf4842249
+	   |-- fabric-renderer-indigo 3.1.2+5281b90749
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.3.0+a272b33849
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.7+847e5f5c49
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.129+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.17+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.24+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.5.3
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- fsit 2.8.2+mc1.21.2
+	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- ksyxis 1.3.4
+	- lazy_ai_pixelindiedev 1.3.2
+	- leashmod 1.2.2+1.21.5
+	- leavesbegone 21.5.2
+	- lithium 0.16.3+mc1.21.5
+	- luckperms 5.5.4
+	   \-- fabric-permissions-api-v0 0.3.3
+	- memory-check 1.5
+	- minecraft 1.21.5
+	- modernfix 5.20.6
+	- mr_ly_clumps 1-v1.0.3
+	- nemos-better-mending 1.21.5-1.1.1
+	- packetfixer 3.3.1
+	- puzzleslib 21.5.13
+	- shulker_bundle 1.1
+	   \-- fabric-permissions-api-v0 0.3.3
+	- trade_cycling 1.21.5-1.0.18
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   \-- fabric-screen-api-v1 2.0.46+86c3a9f107
+	- travelersbackpack 10.5.3
+	- tt20 0.7.2
+	   \-- net_snackbag_shit_shit 1.2.3
+	- vcinteraction 1.21.5-1.0.8
+	   \-- polymer-registry-sync-manipulator 0.12.1+1.21.5-rc2
+	- voicechat 1.21.5-2.6.6
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   |-- fabric-rendering-v1 11.1.11+081cc04307
+	   \-- voicechat_api 2.6.0
+	- yet_another_config_lib_v3 3.8.0+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[19:28:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/1.21.10-Definitivo./servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:28:59] [main/INFO]: Compatibility level set to JAVA_16
+[19:28:59] [main/INFO]: Compatibility level set to JAVA_17
+[19:28:59] [main/INFO]: Compatibility level set to JAVA_21
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:28:59] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:28:59] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:28:59] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:28:59] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:59] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:59] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:28:59] [main/INFO]: Loaded configuration file for Lithium: 157 options available, 0 override(s) found.
+[19:29:00] [main/INFO]: Loaded configuration file for ModernFix 5.20.6: 58 options available, 3 override(s) found
+[19:29:00] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[19:29:00] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[19:29:00] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[19:29:00] [main/INFO]: Applying Nashorn fix
+[19:29:00] [main/INFO]: Packet Fixer forge 1.20.5-1.21.X has been applied successfully.
+[19:29:00] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:29:00] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:29:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[19:29:00] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[19:29:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:29:04] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:29:08] [main/INFO]: Vanilla bootstrap took 7234 milliseconds
+[19:29:08] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[19:29:08] [main/INFO]: Successfully Debugify'd your game!
+[19:29:09] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[19:29:09] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[19:29:09] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[19:29:09] [main/INFO]: Initialized LeashPlayers
+[19:29:09] [main/INFO]: Constructing common components for leavesbegone:main
+[19:29:09] [main/INFO]: Thank you for using Nemo's Better Mending!
+[19:29:09] [main/INFO]: Constructing common components for puzzleslib:main
+[19:29:09] [main/INFO]: shulkerbundle loaded!
+[19:29:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[19:29:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[19:29:10] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[19:29:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[19:29:10] [main/INFO]: Starting TT20...
+[19:29:10] [ForkJoinPool.commonPool-worker-2/INFO]: (TT20) Checking for updates...
+[19:29:10] [main/INFO]: [voicechat] Compatibility version 20
+[19:29:10] [main/INFO]: [voicechat] Loading plugins
+[19:29:10] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[19:29:10] [main/INFO]: [voicechat] Initializing plugins
+[19:29:10] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[19:29:10] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[19:29:10] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:29:10] [ForkJoinPool.commonPool-worker-2/INFO]: (TT20) Running the latest version
+[19:29:10] [main/INFO]: Loading configuration...
+[19:29:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:29:12] [main/ERROR]: Couldn't load tag gbm:not_mob as it is missing following references: minecraft:potion (from file/Gamingbarn's Morphs V1.14.1.zip)
+[19:29:15] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called player_heads:entities/player
+[19:29:15] [Worker-Main-1/WARN]: Invalid path in datapack: thoughtful_recipes:recipe/backports (pre-1.21.5)/saddle.json, ignoring
+[19:29:15] [Worker-Main-1/ERROR]: Couldn't parse data file 'minecraft:gray_stained_glass' from 'minecraft:recipe/gray_stained_glass.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "qol:full_glass"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "qol:full_glass"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: qol:full_glass']
+[19:29:15] [Worker-Main-1/ERROR]: Couldn't parse data file 'qol_recipes:misc/bundle' from 'qol_recipes:recipe/misc/bundle.json': DataResult.Error['Pattern references symbol 'L' but it's not defined in the key']
+[19:29:18] [main/INFO]: Loaded 1747 recipes
+[19:29:18] [main/ERROR]: Failed to load function timberstrikeenchantment:main/tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / timberstrike:shift] at position 195: ...rike:shift<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at knot/net.minecraft.class_4014.method_67576(class_4014.java:52) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / timberstrike:shift] at position 195: ...rike:shift<--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 7 more
+[19:29:18] [main/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: timberstrikeenchantment:main/tick (from file/Timber Strike Enchantment v4.1 1.21 - 1.21.4.zip)
+[19:29:18] [main/INFO]: Loaded 3231 advancements
+[19:29:18] [main/WARN]: Initial datapack load took 7.449 s
+[19:29:19] [main/INFO]: Applied 0 biome modifications to 0 of 167 new biomes in 2.371 ms
+[19:29:19] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[19:29:19] [Server thread/INFO]:         __    
+[19:29:19] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.4
+[19:29:19] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.128.2+1.21.5
+[19:29:19] [Server thread/INFO]: 
+[19:29:19] [Server thread/INFO]: Loading storage provider... [H2]
+[19:29:19] [Server thread/INFO]: Loading internal permission managers...
+[19:29:19] [Server thread/INFO]: Performing initial data load...
+[19:29:20] [Server thread/INFO]: Successfully enabled. (took 494ms)
+[19:29:20] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[19:29:20] [Server thread/INFO]: Loading properties
+[19:29:20] [Server thread/INFO]: Default game type: SURVIVAL
+[19:29:20] [Server thread/INFO]: Generating keypair
+[19:29:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:29:20] [Server thread/INFO]: Using epoll channel type
+[19:29:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:29:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:29:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:29:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:29:20] [Server thread/INFO]: Preparing level "world"
+[19:29:20] [Server thread/INFO]: Enforcing safe world random access
+[19:29:21] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 497.0 ms
+[19:29:21] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:29:21] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 55.71 ms
+[19:29:21] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.13 ms
+[19:29:22] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.330 ms
+[19:29:22] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@13e4b5f4)
+[19:29:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:29:22] [Server thread/INFO]: Time elapsed: 23 ms
+[19:29:22] [Server thread/INFO]: Done (1.511s)! For help, type "help"
+[19:29:22] [Server thread/WARN]: Dedicated server took 24.444 seconds to load
+[19:29:22] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:29:22] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'back-villa.gl.at.ply.gg'
+[19:29:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 7762
+[19:30:22] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:42:42] [Server thread/INFO]: /advancement (grant|revoke)
+[19:42:42] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[19:42:42] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[19:42:42] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[19:42:42] [Server thread/INFO]: /clear [<targets>]
+[19:42:42] [Server thread/INFO]: /clone (<begin>|from)
+[19:42:42] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[19:42:42] [Server thread/INFO]: /data (merge|get|remove|modify)
+[19:42:42] [Server thread/INFO]: /datapack (enable|disable|list)
+[19:42:42] [Server thread/INFO]: /debug (start|stop|function)
+[19:42:42] [Server thread/INFO]: /defaultgamemode <gamemode>
+[19:42:42] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[19:42:42] [Server thread/INFO]: /effect (clear|give)
+[19:42:42] [Server thread/INFO]: /me <action>
+[19:42:42] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[19:42:42] [Server thread/INFO]: /experience (add|set|query)
+[19:42:42] [Server thread/INFO]: /xp -> experience
+[19:42:42] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
+[19:42:42] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[19:42:42] [Server thread/INFO]: /forceload (add|remove|query)
+[19:42:42] [Server thread/INFO]: /function <name> [<arguments>|with]
+[19:42:42] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[19:42:42] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|leashPlayersAllowLeashedRemoveFenceKnot|leashPlayersDistanceMax|leashPlayersDistanceMin|leashPlayersEnabled|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[19:42:42] [Server thread/INFO]: /give <targets> <item> [<count>]
+[19:42:42] [Server thread/INFO]: /help [<command>]
+[19:42:42] [Server thread/INFO]: /item (replace|modify)
+[19:42:42] [Server thread/INFO]: /kick <targets> [<reason>]
+[19:42:42] [Server thread/INFO]: /kill [<targets>]
+[19:42:42] [Server thread/INFO]: /list [uuids]
+[19:42:42] [Server thread/INFO]: /locate (structure|biome|poi)
+[19:42:42] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[19:42:42] [Server thread/INFO]: /msg <targets> <message>
+[19:42:42] [Server thread/INFO]: /tell -> msg
+[19:42:42] [Server thread/INFO]: /w -> msg
+[19:42:42] [Server thread/INFO]: /particle <name> [<pos>]
+[19:42:42] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[19:42:42] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[19:42:42] [Server thread/INFO]: /random (value|roll|reset)
+[19:42:42] [Server thread/INFO]: /reload
+[19:42:42] [Server thread/INFO]: /recipe (give|take)
+[19:42:42] [Server thread/INFO]: /return (<value>|fail|run)
+[19:42:42] [Server thread/INFO]: /ride <target> (mount|dismount)
+[19:42:42] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
+[19:42:42] [Server thread/INFO]: /say <message>
+[19:42:42] [Server thread/INFO]: /schedule (function|clear)
+[19:42:42] [Server thread/INFO]: /scoreboard (objectives|players)
+[19:42:42] [Server thread/INFO]: /seed
+[19:42:42] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
+[19:42:42] [Server thread/INFO]: /spawnpoint [<targets>]
+[19:42:42] [Server thread/INFO]: /setworldspawn [<pos>]
+[19:42:42] [Server thread/INFO]: /spectate [<target>]
+[19:42:42] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[19:42:42] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[19:42:42] [Server thread/INFO]: /summon <entity> [<pos>]
+[19:42:42] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[19:42:42] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[19:42:42] [Server thread/INFO]: /teammsg <message>
+[19:42:42] [Server thread/INFO]: /tm -> teammsg
+[19:42:42] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[19:42:42] [Server thread/INFO]: /tp -> teleport
+[19:42:42] [Server thread/INFO]: /tellraw <targets> <message>
+[19:42:42] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
+[19:42:42] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[19:42:42] [Server thread/INFO]: /time (set|add|query)
+[19:42:42] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[19:42:42] [Server thread/INFO]: /trigger <objective> [add|set]
+[19:42:42] [Server thread/INFO]: /weather (clear|rain|thunder)
+[19:42:42] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[19:42:42] [Server thread/INFO]: /jfr (start|stop)
+[19:42:42] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[19:42:42] [Server thread/INFO]: /banlist [ips|players]
+[19:42:42] [Server thread/INFO]: /ban <targets> [<reason>]
+[19:42:42] [Server thread/INFO]: /deop <targets>
+[19:42:42] [Server thread/INFO]: /op <targets>
+[19:42:42] [Server thread/INFO]: /pardon <targets>
+[19:42:42] [Server thread/INFO]: /pardon-ip <target>
+[19:42:42] [Server thread/INFO]: /perf (start|stop)
+[19:42:42] [Server thread/INFO]: /save-all [flush]
+[19:42:42] [Server thread/INFO]: /save-off
+[19:42:42] [Server thread/INFO]: /save-on
+[19:42:42] [Server thread/INFO]: /setidletimeout <minutes>
+[19:42:42] [Server thread/INFO]: /stop
+[19:42:42] [Server thread/INFO]: /transfer <hostname> [<port>]
+[19:42:42] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[19:42:42] [Server thread/INFO]: /c2me notick
+[19:42:42] [Server thread/INFO]: /chunky [cancel|center|confirm|continue|corners|help|pattern|pause|progress|quiet|radius|reload|selection|shape|silent|spawn|start|trim|worldborder|world]
+[19:42:42] [Server thread/INFO]: /fsit (reload|useServer|centerSeats|onUseSit|onUseRide|onUseRange|onUseCheckSuffocation|onSneakSit|onSneakCrawl|onSneakMinPitch|onSneakDelay)
+[19:42:42] [Server thread/INFO]: /sit
+[19:42:42] [Server thread/INFO]: /crawl
+[19:42:42] [Server thread/INFO]: /modernfix mcfunctions
+[19:42:42] [Server thread/INFO]: /tb (access|remove|clear|restore|unpack)
+[19:42:42] [Server thread/INFO]: /tt20 [tps|status|toggle|reload]
+[19:42:42] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
+[19:42:42] [Server thread/INFO]: /luckperms [<args>]
+[19:42:42] [Server thread/INFO]: /lp [<args>]
+[19:42:42] [Server thread/INFO]: /perm [<args>]
+[19:42:42] [Server thread/INFO]: /perms [<args>]
+[19:42:42] [Server thread/INFO]: /permission [<args>]
+[19:42:42] [Server thread/INFO]: /permissions [<args>]
+[19:42:42] [Server thread/INFO]: /memcheck
+[19:47:21] [Server thread/INFO]:  Memory Usage
+[19:47:21] [Server thread/INFO]: ==============
+[19:47:21] [Server thread/INFO]: Limit: 12.9 GB
+[19:47:21] [Server thread/INFO]: Allocated: 2.6 GB (20.4%)
+[19:47:21] [Server thread/INFO]: Used: 1.1 GB (8.5%)
+[19:59:26] [Server thread/INFO]: IsagiYoichi11[/127.21.7.129:37231] logged in with entity id 33 at (-29.881254609597022, 92.0, 176.70569482065986)
+[19:59:26] [Server thread/INFO]: Loading config from file...
+[19:59:26] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[19:59:26] [Server thread/INFO]: IsagiYoichi11 joined the game
+[19:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5079ms or 101 ticks behind
+[19:59:30] [Server thread/INFO]: [voicechat] Received secret request of IsagiYoichi11 (20)
+[19:59:30] [Server thread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[19:59:34] [Server thread/INFO]: RolandKisserBoi[/127.21.7.129:35971] logged in with entity id 258 at (-32.208247379575866, 92.0, 178.0014265194209)
+[19:59:34] [Server thread/INFO]: Loading config from file...
+[19:59:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31121e76-e19f-39b3-ac62-e0424960515e
+[19:59:34] [Server thread/INFO]: RolandKisserBoi joined the game
+[19:59:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31121e76-e19f-39b3-ac62-e0424960515e
+[19:59:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IsagiYoichi11 (31121e76-e19f-39b3-ac62-e0424960515e) successfully connected to voice chat
+[19:59:37] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (20)
+[19:59:37] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[19:59:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[19:59:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[19:59:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RolandKisserBoi (d8ee004d-73b7-33bd-8326-8b79a976b26d) successfully connected to voice chat
+[19:59:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Initializing Opus
+[19:59:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully initialized Opus
+[19:59:43] [Server thread/INFO]: Villager class_1646['Fisherman'/66, l='ServerLevel[world]', x=-41.96, y=92.94, z=193.07] died, message: 'Fisherman was slain by Zombie'
+[20:01:01] [Server thread/INFO]: Villager class_1646['Villager'/90, l='ServerLevel[world]', x=-50.50, y=96.00, z=141.70] died, message: 'Villager was slain by Zombie'
+[20:07:20] [Server thread/INFO]: [Not Secure] <RolandKisserBoi> timber
+[20:10:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-92, y=92, z=198} class_2338{x=-90, y=91, z=200}
+[20:11:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=93, z=199} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=93, z=200} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=93, z=200} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=93, z=200} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=93, z=200} class_2338{x=-83, y=91, z=204}
+[20:11:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=93, z=200} class_2338{x=-83, y=91, z=204}
+[20:11:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-76, y=93, z=202} class_2338{x=-75, y=91, z=201}
+[20:11:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-76, y=93, z=202} class_2338{x=-75, y=91, z=201}
+[20:11:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-76, y=93, z=202} class_2338{x=-75, y=91, z=201}
+[20:11:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-76, y=93, z=202} class_2338{x=-75, y=91, z=201}
+[20:11:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-76, y=93, z=202} class_2338{x=-75, y=91, z=201}
+[20:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=202} class_2338{x=-94, y=91, z=204}
+[20:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=202} class_2338{x=-94, y=91, z=204}
+[20:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=93, z=202} class_2338{x=-94, y=91, z=204}
+[20:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=93, z=202} class_2338{x=-94, y=91, z=204}
+[20:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=93, z=202} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=93, z=204} class_2338{x=-94, y=91, z=204}
+[20:23:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-98, y=93, z=205} class_2338{x=-97, y=91, z=206}
+[20:23:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d8ee004d-73b7-33bd-8326-8b79a976b26d timed out
+[20:28:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 340972ms or 6819 ticks behind
+[20:28:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player RolandKisserBoi
+[20:28:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:28:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 31121e76-e19f-39b3-ac62-e0424960515e timed out
+[20:28:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player IsagiYoichi11
+[20:28:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[20:28:55] [Server thread/INFO]: IsagiYoichi11 lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: IsagiYoichi11 left the game
+[20:28:55] [Server thread/INFO]: [voicechat] Disconnecting client IsagiYoichi11
+[20:28:55] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi left the game
+[20:28:55] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:33777) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:52603) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: IsagiYoichi11 (/127.21.7.129:60633) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:45819) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:52329) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:43349) lost connection: Disconnected
+[20:28:55] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:58421) lost connection: Disconnected
+[20:29:24] [Server thread/INFO]: RolandKisserBoi[/127.21.7.129:33891] logged in with entity id 3610 at (-97.62955171861378, 92.0, 204.05074630737664)
+[20:29:24] [Server thread/INFO]: Loading config from file...
+[20:29:24] [Server thread/INFO]: RolandKisserBoi joined the game
+[20:29:24] [Server thread/INFO]: IsagiYoichi11[/127.21.7.129:51399] logged in with entity id 3616 at (-97.69999998807907, 106.125, -48.67679045495753)
+[20:29:24] [Server thread/INFO]: Loading config from file...
+[20:29:25] [Server thread/INFO]: IsagiYoichi11 joined the game
+[20:29:25] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (20)
+[20:29:25] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:29:25] [Server thread/INFO]: [voicechat] Received secret request of IsagiYoichi11 (20)
+[20:29:25] [Server thread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[20:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[20:29:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:29:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31121e76-e19f-39b3-ac62-e0424960515e
+[20:29:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:29:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RolandKisserBoi (d8ee004d-73b7-33bd-8326-8b79a976b26d) successfully connected to voice chat
+[20:29:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31121e76-e19f-39b3-ac62-e0424960515e
+[20:29:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IsagiYoichi11 (31121e76-e19f-39b3-ac62-e0424960515e) successfully connected to voice chat
+[20:29:45] [Server thread/WARN]: IsagiYoichi11 moved too quickly! 1.8890353698312623,-10.323277530402308,1.8426427699784895
+[20:30:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 31121e76-e19f-39b3-ac62-e0424960515e timed out
+[20:30:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player IsagiYoichi11
+[20:30:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[20:30:59] [Server thread/WARN]: RolandKisserBoi moved too quickly! -10.159773866386175,-0.2564708892573009,2.3710197892116014
+[20:31:04] [Server thread/INFO]: IsagiYoichi11 lost connection: You logged in from another location
+[20:31:04] [Server thread/INFO]: IsagiYoichi11 left the game
+[20:31:04] [Server thread/INFO]: [voicechat] Disconnecting client IsagiYoichi11
+[20:31:04] [Server thread/WARN]: handleDisconnection() called twice
+[20:31:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=92, z=195} class_2338{x=-93, y=90, z=195}
+[20:31:39] [Server thread/INFO]: IsagiYoichi11[/127.21.7.129:33027] logged in with entity id 4405 at (-104.86241272452087, 67.0, -41.19223374127187)
+[20:31:39] [Server thread/INFO]: Loading config from file...
+[20:31:40] [Server thread/INFO]: IsagiYoichi11 joined the game
+[20:31:44] [Server thread/INFO]: [voicechat] Received secret request of IsagiYoichi11 (20)
+[20:31:44] [Server thread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[20:32:16] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[20:32:16] [Server thread/INFO]: RolandKisserBoi left the game
+[20:32:16] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:32:37] [Server thread/INFO]: RolandKisserBoi (/127.21.7.129:43333) lost connection: Disconnected
+[20:32:54] [Server thread/INFO]: RolandKisserBoi[/127.21.7.129:59045] logged in with entity id 4718 at (-77.72291404967493, 92.0, 208.26154043846893)
+[20:32:54] [Server thread/INFO]: Loading config from file...
+[20:32:54] [Server thread/INFO]: RolandKisserBoi joined the game
+[20:32:56] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (20)
+[20:32:56] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:32:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:33:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:33:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RolandKisserBoi (d8ee004d-73b7-33bd-8326-8b79a976b26d) successfully connected to voice chat
+[20:34:53] [Server thread/INFO]: IsagiYoichi11 lost connection: Timed out
+[20:34:53] [Server thread/INFO]: IsagiYoichi11 left the game
+[20:34:53] [Server thread/INFO]: [voicechat] Disconnecting client IsagiYoichi11
+[20:35:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d8ee004d-73b7-33bd-8326-8b79a976b26d timed out
+[20:35:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player RolandKisserBoi
+[20:35:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:35:51] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[20:35:51] [Server thread/INFO]: RolandKisserBoi left the game
+[20:35:51] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:36:51] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:38:14] [Server thread/INFO]: RolandKisserBoi[/127.21.7.129:50597] logged in with entity id 5368 at (-89.08655288127319, 92.0, 214.31241499412988)
+[20:38:14] [Server thread/INFO]: Loading config from file...
+[20:38:14] [Server thread/INFO]: RolandKisserBoi joined the game
+[20:38:15] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (20)
+[20:38:15] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:38:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:38:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:38:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RolandKisserBoi (d8ee004d-73b7-33bd-8326-8b79a976b26d) successfully connected to voice chat
+[20:39:09] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[20:39:09] [Server thread/INFO]: RolandKisserBoi left the game
+[20:39:09] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:40:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:40:49] [Server thread/INFO]: RolandKisserBoi[/127.21.7.129:41981] logged in with entity id 5706 at (-81.17513113633214, 92.0, 198.0395528526051)
+[20:40:49] [Server thread/INFO]: Loading config from file...
+[20:40:49] [Server thread/INFO]: RolandKisserBoi joined the game
+[20:40:49] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (20)
+[20:40:49] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[20:40:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:40:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d8ee004d-73b7-33bd-8326-8b79a976b26d
+[20:40:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RolandKisserBoi (d8ee004d-73b7-33bd-8326-8b79a976b26d) successfully connected to voice chat
+[20:42:45] [Server thread/INFO]: IsagiYoichi11[/127.21.7.129:55561] logged in with entity id 6163 at (-104.86241272452087, 67.0, -41.19223374127187)
+[20:42:45] [Server thread/INFO]: Loading config from file...
+[20:42:45] [Server thread/INFO]: IsagiYoichi11 joined the game
+[20:42:50] [Server thread/INFO]: [voicechat] Received secret request of IsagiYoichi11 (20)
+[20:42:50] [Server thread/INFO]: [voicechat] Sent secret to IsagiYoichi11
+[20:43:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31121e76-e19f-39b3-ac62-e0424960515e
+[20:43:10] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[20:43:10] [Server thread/INFO]: RolandKisserBoi left the game
+[20:43:10] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:43:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31121e76-e19f-39b3-ac62-e0424960515e
+[20:43:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player IsagiYoichi11 (31121e76-e19f-39b3-ac62-e0424960515e) successfully connected to voice chat
+[20:45:08] [Server thread/INFO]: IsagiYoichi11 lost connection: Disconnected
+[20:45:08] [Server thread/INFO]: IsagiYoichi11 left the game
+[20:45:08] [Server thread/INFO]: [voicechat] Disconnecting client IsagiYoichi11
+[20:46:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
