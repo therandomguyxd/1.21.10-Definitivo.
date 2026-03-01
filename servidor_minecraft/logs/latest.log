@@ -1,0 +1,173 @@
+[03:08:07] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[03:08:07] [main/INFO]: Loading 41 mods:
+	- fabric-api 0.141.3+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.11
+[03:08:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/1.21.10-Definitivo./servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:08:07] [main/INFO]: Compatibility level set to JAVA_21
+[03:08:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[03:08:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:08:25] [main/INFO]: No existing world data, creating new world
+[03:08:26] [main/INFO]: Loaded 1470 recipes
+[03:08:26] [main/INFO]: Loaded 1584 advancements
+[03:08:26] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.660 ms
+[03:08:26] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[03:08:26] [Server thread/INFO]: Loading properties
+[03:08:26] [Server thread/INFO]: Default game type: SURVIVAL
+[03:08:26] [Server thread/INFO]: Generating keypair
+[03:08:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:08:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:08:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:08:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:08:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:08:27] [Server thread/INFO]: Preparing level "world"
+[03:08:27] [Server thread/INFO]: Selecting global world spawn...
+[03:08:45] [Server thread/INFO]: Loading 0 persistent chunks...
+[03:08:45] [Server thread/INFO]: Preparing spawn area: 100%
+[03:08:45] [Server thread/INFO]: Time elapsed: 17135 ms
+[03:08:45] [Server thread/INFO]: Done (17.727s)! For help, type "help"
+[03:09:04] [Server thread/INFO]: /advancement (grant|revoke)
+[03:09:04] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[03:09:04] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[03:09:04] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[03:09:04] [Server thread/INFO]: /clear [<targets>]
+[03:09:04] [Server thread/INFO]: /clone (<begin>|from)
+[03:09:04] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[03:09:04] [Server thread/INFO]: /data (merge|get|remove|modify)
+[03:09:04] [Server thread/INFO]: /datapack (enable|disable|list|create)
+[03:09:04] [Server thread/INFO]: /debug (start|stop|function)
+[03:09:04] [Server thread/INFO]: /defaultgamemode <gamemode>
+[03:09:04] [Server thread/INFO]: /dialog (show|clear)
+[03:09:04] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[03:09:04] [Server thread/INFO]: /effect (clear|give)
+[03:09:04] [Server thread/INFO]: /me <action>
+[03:09:04] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[03:09:04] [Server thread/INFO]: /experience (add|set|query)
+[03:09:04] [Server thread/INFO]: /xp -> experience
+[03:09:04] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
+[03:09:04] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[03:09:04] [Server thread/INFO]: /forceload (add|remove|query)
+[03:09:04] [Server thread/INFO]: /function <name> [<arguments>|with]
+[03:09:04] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[03:09:04] [Server thread/INFO]: /gamerule (forgive_dead_players|minecraft:forgive_dead_players|pvp|minecraft:pvp|projectiles_can_break_blocks|minecraft:projectiles_can_break_blocks|natural_health_regeneration|minecraft:natural_health_regeneration|fall_damage|minecraft:fall_damage|spawner_blocks_work|minecraft:spawner_blocks_work|log_admin_commands|minecraft:log_admin_commands|reduced_debug_info|minecraft:reduced_debug_info|advance_time|minecraft:advance_time|mob_griefing|minecraft:mob_griefing|command_blocks_work|minecraft:command_blocks_work|send_command_feedback|minecraft:send_command_feedback|tnt_explodes|minecraft:tnt_explodes|universal_anger|minecraft:universal_anger|spread_vines|minecraft:spread_vines|max_block_modifications|minecraft:max_block_modifications|mob_explosion_drop_decay|minecraft:mob_explosion_drop_decay|spawn_mobs|minecraft:spawn_mobs|locator_bar|minecraft:locator_bar|max_snow_accumulation_height|minecraft:max_snow_accumulation_height|raids|minecraft:raids|show_advancement_messages|minecraft:show_advancement_messages|immediate_respawn|minecraft:immediate_respawn|players_nether_portal_creative_delay|minecraft:players_nether_portal_creative_delay|players_nether_portal_default_delay|minecraft:players_nether_portal_default_delay|advance_weather|minecraft:advance_weather|global_sound_events|minecraft:global_sound_events|max_entity_cramming|minecraft:max_entity_cramming|drowning_damage|minecraft:drowning_damage|lava_source_conversion|minecraft:lava_source_conversion|fire_damage|minecraft:fire_damage|block_explosion_drop_decay|minecraft:block_explosion_drop_decay|players_sleeping_percentage|minecraft:players_sleeping_percentage|show_death_messages|minecraft:show_death_messages|limited_crafting|minecraft:limited_crafting|spawn_phantoms|minecraft:spawn_phantoms|ender_pearls_vanish_on_death|minecraft:ender_pearls_vanish_on_death|respawn_radius|minecraft:respawn_radius|player_movement_check|minecraft:player_movement_check|random_tick_speed|minecraft:random_tick_speed|spawn_wardens|minecraft:spawn_wardens|freeze_damage|minecraft:freeze_damage|spawn_monsters|minecraft:spawn_monsters|spawn_wandering_traders|minecraft:spawn_wandering_traders|block_drops|minecraft:block_drops|fire_spread_radius_around_player|minecraft:fire_spread_radius_around_player|max_command_forks|minecraft:max_command_forks|mob_drops|minecraft:mob_drops|water_source_conversion|minecraft:water_source_conversion|elytra_movement_check|minecraft:elytra_movement_check|spawn_patrols|minecraft:spawn_patrols|command_block_output|minecraft:command_block_output|entity_drops|minecraft:entity_drops|allow_entering_nether_using_portals|minecraft:allow_entering_nether_using_portals|spectators_generate_chunks|minecraft:spectators_generate_chunks|keep_inventory|minecraft:keep_inventory|max_command_sequence_length|minecraft:max_command_sequence_length|tnt_explosion_drop_decay|minecraft:tnt_explosion_drop_decay)
+[03:09:04] [Server thread/INFO]: /give <targets> <item> [<count>]
+[03:09:04] [Server thread/INFO]: /help [<command>]
+[03:09:04] [Server thread/INFO]: /item (replace|modify)
+[03:09:04] [Server thread/INFO]: /kick <targets> [<reason>]
+[03:09:04] [Server thread/INFO]: /kill [<targets>]
+[03:09:04] [Server thread/INFO]: /list [uuids]
+[03:09:04] [Server thread/INFO]: /locate (structure|biome|poi)
+[03:09:04] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[03:09:04] [Server thread/INFO]: /msg <targets> <message>
+[03:09:04] [Server thread/INFO]: /tell -> msg
+[03:09:04] [Server thread/INFO]: /w -> msg
+[03:09:04] [Server thread/INFO]: /particle <name> [<pos>]
+[03:09:04] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[03:09:04] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
+[03:09:04] [Server thread/INFO]: /random (value|roll|reset)
+[03:09:04] [Server thread/INFO]: /reload
+[03:09:04] [Server thread/INFO]: /recipe (give|take)
+[03:09:04] [Server thread/INFO]: /fetchprofile (name|id)
+[03:09:04] [Server thread/INFO]: /return (<value>|fail|run)
+[03:09:04] [Server thread/INFO]: /ride <target> (mount|dismount)
+[03:09:04] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
+[03:09:04] [Server thread/INFO]: /say <message>
+[03:09:04] [Server thread/INFO]: /schedule (function|clear)
+[03:09:04] [Server thread/INFO]: /scoreboard (objectives|players)
+[03:09:04] [Server thread/INFO]: /seed
+[03:09:04] [Server thread/INFO]: /version
+[03:09:04] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
+[03:09:04] [Server thread/INFO]: /spawnpoint [<targets>]
+[03:09:04] [Server thread/INFO]: /setworldspawn [<pos>]
+[03:09:04] [Server thread/INFO]: /spectate [<target>]
+[03:09:04] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[03:09:04] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
+[03:09:04] [Server thread/INFO]: /stopwatch (create|query|restart|remove)
+[03:09:04] [Server thread/INFO]: /summon <entity> [<pos>]
+[03:09:04] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[03:09:04] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[03:09:04] [Server thread/INFO]: /teammsg <message>
+[03:09:04] [Server thread/INFO]: /tm -> teammsg
+[03:09:04] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[03:09:04] [Server thread/INFO]: /tp -> teleport
+[03:09:04] [Server thread/INFO]: /tellraw <targets> <message>
+[03:09:04] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
+[03:09:04] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[03:09:04] [Server thread/INFO]: /time (set|add|query)
+[03:09:04] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[03:09:04] [Server thread/INFO]: /trigger <objective> [add|set]
+[03:09:04] [Server thread/INFO]: /waypoint (list|modify)
+[03:09:04] [Server thread/INFO]: /weather (clear|rain|thunder)
+[03:09:04] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[03:09:04] [Server thread/INFO]: /jfr (start|stop)
+[03:09:04] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[03:09:04] [Server thread/INFO]: /banlist [ips|players]
+[03:09:04] [Server thread/INFO]: /ban <targets> [<reason>]
+[03:09:04] [Server thread/INFO]: /deop <targets>
+[03:09:04] [Server thread/INFO]: /op <targets>
+[03:09:04] [Server thread/INFO]: /pardon <targets>
+[03:09:04] [Server thread/INFO]: /pardon-ip <target>
+[03:09:04] [Server thread/INFO]: /perf (start|stop)
+[03:09:04] [Server thread/INFO]: /save-all [flush]
+[03:09:04] [Server thread/INFO]: /save-off
+[03:09:04] [Server thread/INFO]: /save-on
+[03:09:04] [Server thread/INFO]: /setidletimeout <minutes>
+[03:09:04] [Server thread/INFO]: /stop
+[03:09:04] [Server thread/INFO]: /transfer <hostname> [<port>]
+[03:09:04] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[03:09:42] [Server thread/INFO]: Stopping the server
+[03:09:42] [Server thread/INFO]: Stopping server
+[03:09:42] [Server thread/INFO]: Saving players
+[03:09:42] [Server thread/INFO]: Saving worlds
+[03:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
